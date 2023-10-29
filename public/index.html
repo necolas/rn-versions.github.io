@@ -1,42 +1,45 @@
+
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="theme-color"
+      content="#000000"
+      media="(prefers-color-scheme: dark)"
+    />
+    <meta name="theme-color" content="#edebe9" />
+    <meta name="description" content="React Native Version Share" />
+    <link rel="apple-touch-icon" href="logo192.png" />
+    <link rel="manifest" href="manifest.json" />
+    <link
+      rel="preload"
+      href="https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-regular.woff2"
+      as="font"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semibold.woff2"
+      as="font"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-bold.woff2"
+      as="font"
+      crossorigin
+    />
+    <title>React Native Version Share</title>
+    <script type="module" crossorigin src="https://barionleg.github.io/rn-versions/src/assets/index-959ce1fb.js"></script>
+    <link rel="stylesheet" href="https://barionleg.github.io/rn-versions/src/assets/index-8a69c7df.css">
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description" content="React Native Version Share" />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <title>React Native Version Share</title>
-</head>
-
-<!-- Styles for showing a pre-render silhouette of the app -->
-<style>
-  html {
-    overflow-x: hidden;
-    background-color: #f8f9fa;
-  }
-
-  body {
-    overflow-x: hidden;
-    background-color: #f8f9fa;
-  }
-
-  .navbar-silhouette {
-    background-color: #212529;
-    height: 66px;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-</style>
-
-<body>
-  <div class="navbar-silhouette"></div>
-  <div id="root"></div>
-</body>
-
+  <body style="margin: 0">
+    <div id="app"></div>
+    
+  </body>
 </html>
